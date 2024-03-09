@@ -444,7 +444,7 @@ def main():
            'coding skills rating', 'public speaking points']].corr()
     f,axes = plt.subplots(1,1,figsize = (10,10))
     sns.heatmap(corr,square=True,annot = True,linewidth = .4,center = 2,ax = axes)
-    st.subheader("Here are some nerdy analytics 😁")
+    st.subheader("Here are some analytics")
     st.text("Correlation Between Numerical Features")
     st.pyplot(f)
 
